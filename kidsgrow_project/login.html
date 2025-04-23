@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="icon" href="img/kg1.png" sizes="128x128" />
+  <title>KidsGrow Login</title>
+  <link rel="stylesheet" href="login.css">
+</head>
+<body>
+  <div class="login-container">
+    <div class="login-left">
+      <img src="img/kg2.png" alt="KidsGrow Logo" />
+      <h2>Welcome to KidsGrow</h2>
+      <p>Helping children grow with education and care.</p>
+    </div>
+
+    <div class="login-right">
+      <h2>Login to Your Account</h2>
+      <p>Access your dashboard and manage everything easily.</p>
+
+      <form id="loginForm" method="POST" action="login.php" >
+        <div class="input-group">
+          <input type="email" name="email" placeholder="Email" required />
+        </div>
+        <div class="input-group password-group">
+          <input type="password" name="password" id="password" placeholder="Password" required />
+          <span class="toggle-password" onclick="togglePassword()">👁</span>
+        </div>        
+        <div class="input-group">
+          <select name="role" required>
+            <option value="">Select Role</option>
+            <option value="charity">Charity Foundation</option>
+            <option value="donor">Donor</option>
+            <option value="volunteer">Volunteer</option>
+          </select>
+        </div>
+        
+        <button type="submit">Login</button>
+      </form>
+
+      <p style="margin-top: 15px;"><a href="#">Forgot Password?</a></p>
+      <p>New here? <a href="proper.html">Create an Account</a></p>
+    </div>
+  </div>
+  
+  <script src="login.js"></script>
+</body>
+</html>  

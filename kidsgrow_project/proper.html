@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="img/kg1.png" sizes="128x128" />
+    <title>KidsGrow</title>
+    <link rel="stylesheet" href="proper.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  </head>
+  <body>
+    <header class="top-header">
+      <div class="logo">
+        <img src="img/kg2.png" alt="Logo" />
+      </div>
+    
+      <div class="hamburger" onclick="toggleMenu()">
+        <img src="img/nav.png" alt="menu" />
+      </div>
+      <nav class="navs" id="navLinks">
+        <a href="#home">HOME</a>
+        <a href="#aboutus">ABOUT US</a>
+        <a href="#causes">CAUSES</a>
+        <a href="#our-team">OUR TEAM</a>
+        <a href="#gallery">GALLERY</a>
+        <a href="#contact">CONTACT US</a>
+        <button class="navs-btn" onclick="window.open('donation.php', '_blank')">DONATE</button>
+      </nav>
+    </header>    
+    
+
+    <section class="section-home" id="home">
+      <div class="img-slider">
+        <!-- Slide 1 -->
+        <div class="slide active">
+          <img src="img/home1.jpg" alt="Child Image 1" />
+          <div class="info">
+            <h2>Transforming Lives, One Child at a Time</h2>
+            <p>
+              Education empowers individuals with knowledge, skills, and
+              opportunities, fostering growth, innovation, and equality for a
+              prosperous and sustainable future.
+            </p>
+          </div>
+        </div>
+
+        <!-- Slide 2 -->
+        <div class="slide">
+          <img src="img/home2.jpg" alt="Child Image 2" />
+          <div class="info right-center">
+            <h2>Education is the Key to a Better Future</h2>
+            <p>
+              Education empowers individuals, promotes innovation, reduces
+              poverty, fosters equality, enhances career opportunities, and
+              builds a progressive, sustainable, and prosperous future for all.
+            </p>
+          </div>
+        </div>
+
+        <!-- Slide 3 -->
+        <div class="slide">
+          <img src="img/home3.jpg" alt="Child Image 3" />
+          <div class="info">
+            <h2>Every Child Deserves a Healthy Start</h2>
+            <p>
+              Proper nutrition is vital for growth and learning. Our programs
+              deliver balanced meals to ensure children stay healthy and
+              energized to focus on their education and dreams.
+            </p>
+          </div>
+        </div>
+
+        <!-- Slide 4 -->
+        <div class="slide">
+          <img src="img/home4.jpg" alt="Child Image 4" />
+          <div class="info right-center">
+            <h2>Caring for Their Health, Building Their Future</h2>
+            <p>
+              We offer medical assistance, vaccinations, and regular health
+              check-ups to ensure that children can grow up strong, resilient,
+              and ready to embrace opportunities.
+            </p>
+
+            <div class="slide-donate-btn"></div>
+          </div>
+        </div>
+
+        <!-- Slide 5 -->
+        <div class="slide">
+          <img src="img/home5.jpg" alt="Child Image 5" />
+          <div class="info">
+            <h2>Be the Change They Need</h2>
+            <p>
+              Your support makes all the difference! Donate, volunteer, or
+              partner with us to bring hope and happiness to children in need.
+              Together, we can make a lasting impact.
+            </p>
+          </div>
+        </div>
+
+        <button class="arrow left">&#10094;</button>
+        <button class="arrow right">&#10095;</button>
+
+        <!-- Navigation Dots -->
+        <div class="navigation">
+          <div class="btn active"></div>
+          <div class="btn"></div>
+          <div class="btn"></div>
+          <div class="btn"></div>
+          <div class="btn"></div>
+        </div>
+      </div>
+    </section>
+   
+
+    <section class="about" id="aboutus">
+      <div class="container">
+        <h1>ABOUT US</h1>
+        <p>
+          <strong>KidsGrow</strong> is a charitable organization dedicated to
+          empowering underprivileged children through education, healthcare, and
+          nutrition. We provide school supplies, scholarships, tutoring,
+          balanced meals, and medical assistance to create a safe and nurturing
+          environment for children to learn and grow.
+        </p>
+        <p><strong>Together, we can help children grow!</strong></p>
+
+        <div class="content">
+          <div class="card" id="mission">
+            <i class="fas fa-bullseye"></i>
+            <h3>Our Mission</h3>
+            <p>
+              We aim to provide education, nutrition, and healthcare to
+              underprivileged children, ensuring a brighter future.
+            </p>
+          </div>
+          <div class="card" id="donation">
+            <i class="fas fa-hand-holding-heart"></i>
+            <h3>Make Donation</h3>
+            <p>
+              Your contributions help us support children's education,
+              healthcare, and overall well-being.
+            </p>
+          </div>
+          <div class="card" id="support">
+            <i class="fas fa-hands-helping"></i>
+            <h3>Help and Support</h3>
+            <p>
+              We offer multiple ways to support kids through sponsorships,
+              mentoring, and community outreach programs.
+            </p>
+          </div>
+          <div class="card" id="program">
+            <i class="fas fa-book-open"></i>
+            <h3>Our Program</h3>
+            <p>
+              We run various educational and skill development programs for
+              children to help them succeed in life.
+            </p>
+          </div>
+          <div class="card" id="volunteer">
+            <i class="fas fa-users"></i>
+            <h3>Volunteer</h3>
+            <p>
+              Join us as a volunteer and make a direct impact on the lives of
+              children in need.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <section class="causes-section" id="causes">
+      <h2 class="section-heading">CAUSES</h2>
+      <p class="section-intro">
+        We are dedicated to supporting children in need across various causes.
+        By contributing, you can help us make a real difference in their lives.
+        Explore our key areas of focus and join us in transforming their futures.
+      </p>
+    
+      <div class="causes-container">
+        <div class="cause-box">
+          <img src="img/cause1.png" alt="Hunger and Poverty" class="cause-image" />
+          <div class="cause-content">
+            <h3>Hunger and Poverty</h3>
+            <p>We strive to alleviate hunger and poverty by providing essential food, healthcare, and support for children in need.</p>
+            <button class="donate-btn" onclick="donate('hunger')">Donate</button>
+          </div>
+        </div>
+  
+    
+        <div class="cause-box">
+          <img src="img/cause3.png" alt="Human Rights" class="cause-image" />
+          <div class="cause-content">
+            <h3>Human Rights</h3>
+            <p>We work towards ensuring that every child has the right to safety, dignity, and access to opportunities for growth.</p><br>
+            <button class="donate-btn" onclick="donate('human-rights')">Donate</button>
+          </div>
+        </div>
+    
+        <div class="cause-box">
+          <img src="img/cause4.png" alt="Art and Culture" class="cause-image" />
+          <div class="cause-content">
+            <h3>Art and Culture</h3>
+            <p>We encourage creativity through art and culture, helping children discover their passions and talents.</p><br>
+            <button class="donate-btn" onclick="donate('art-culture')">Donate</button>
+          </div>
+        </div>
+
+        <div class="cause-box">
+          <img src="img/cause2.jpg" alt="Education and Training" class="cause-image" />
+          <div class="cause-content">
+            <h3>Education and Training</h3>
+            <p>Providing quality education and vocational training to empower children and help them achieve their dreams.</p>
+            <button class="donate-btn" onclick="donate('education')">Donate</button>
+          </div>
+        </div>
+    
+      </div>
+    </section>
+    
+
+    <section id="our-team" class="team-section">
+      <h2>OUR TEAM</h2>
+      <p class="team-intro">
+        Our team at KidsGrow is dedicated to empowering underprivileged
+        children. With passion, creativity, and determination, we work together
+        to create impactful programs, secure essential resources, and build
+        opportunities that help every child thrive.
+      </p>
+      <div class="team-container">
+        <div class="team-member">
+          <img src="img/team1.png" alt="Raina" />
+          <h3>Raina Gupta</h3>
+          <p class="role">Program Coordinator</p>
+          <p>
+            Raina oversees the development and execution of educational and
+            healthcare programs, ensuring every initiative is impactful and
+            aligned with KidsGrow's mission.
+          </p>
+          <div class="social-links">
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.linkedin.com/in/rainagupta2424/"><i class="fab fa-linkedin"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-facebook"></i></a>
+          </div>
+        </div>
+        <div class="team-member">
+          <img src="img/team2.png" alt="Aarav" />
+          <h3>Avinash Sharma</h3>
+          <p class="role">Founder & Visionary</p>
+          <p>
+            Avinash founded KidsGrow to transform the lives of underprivileged
+            children by providing them with education, nutrition, and safe
+            environments for growth.
+          </p><br>
+          <div class="social-links">
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.linkedin.com/in/rainagupta2424/"><i class="fab fa-linkedin"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-facebook"></i></a>
+          </div>
+        </div>
+        <div class="team-member">
+          <img src="img/team3.png" alt="Neha" />
+          <h3>Supriya Kushwaha</h3>
+          <p class="role">Child Development Specialist</p>
+          <p>
+            Supriya ensures that KidsGrow's programs are child-centric, focusing
+            on emotional, social, and intellectual development to support
+            holistic growth.
+          </p><br>
+          <div class="social-links">
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.linkedin.com/in/rainagupta2424/"><i class="fab fa-linkedin"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-facebook"></i></a>
+          </div>
+        </div>
+        <div class="team-member">
+          <img src="img/team4.png" alt="Kabir" />
+          <h3>Ganesh Yadav</h3>
+          <p class="role">Community Outreach Lead</p>
+          <p>
+            Ganesh fosters partnerships with communities, donors, and
+            volunteers, ensuring KidsGrow reaches those who need support the
+            most.
+          </p><br>
+          <div class="social-links">
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.linkedin.com/in/rainagupta2424/"><i class="fab fa-linkedin"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-facebook"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="gallery" class="gallery-section">
+      <h2>GALLERY</h2>
+      <p class="gallery-intro">
+        Explore moments of joy, learning, and growth from KidsGrow’s journey in
+        empowering children.
+      </p>
+      <div class="gallery-container">
+        <div class="gallery-item">
+          <img src="img/g1.jpeg" alt="Kids engaged in a learning activity" />
+        </div>
+        <div class="gallery-item">
+          <img src="img/g2.jpeg" alt="Children receiving school supplies" />
+        </div>
+        <div class="gallery-item">
+          <img src="img/g3.jpg" alt="Volunteers interacting with kids" />
+        </div>
+        <div class="gallery-item">
+          <img src="img/g4.jpg" alt="Outdoor fun and games" />
+        </div>
+        <div class="gallery-item">
+          <img src="img/g5.jpg" alt="Nutritious meals for children" />
+        </div>
+        <div class="gallery-item">
+          <img src="img/g6.jpg" alt="A classroom session in progress" />
+        </div>
+        <div class="gallery-item">
+          <img src="img/g7.jpg" alt="Volunteers interacting with kids" />
+        </div>
+        <div class="gallery-item">
+          <img src="img/g8.jpg" alt="Outdoor fun and games" />
+        </div>
+        <div class="gallery-item">
+          <img src="img/g9.png" alt="Nutritious meals for children" />
+        </div>
+        <div class="gallery-item">
+          <img src="img/g10.jpg" alt="A classroom session in progress" />
+        </div>
+        <div class="gallery-item">
+          <img src="img/g11.png" alt="Volunteers interacting with kids" />
+        </div>
+        <div class="gallery-item">
+          <img src="img/g12.png" alt="Outdoor fun and games" />
+        </div>
+        <div class="gallery-item">
+          <img src="img/g13.jpg" alt="A classroom session in progress" />
+        </div>
+        <div class="gallery-item">
+          <img src="img/g14.jpg" alt="Volunteers interacting with kids" />
+        </div>
+        <div class="gallery-item">
+          <img src="img/g15.jpg" alt="Outdoor fun and games" />
+        </div>
+        <div class="gallery-item">
+          <img src="img/g16.jpg" alt="Volunteers interacting with kids" />
+        </div>
+        <div class="gallery-item">
+          <img src="img/g17.jpg" alt="Outdoor fun and games" />
+        </div>
+        <div class="gallery-item">
+          <img src="img/g18.jpg" alt="Volunteers interacting with kids" />
+        </div>
+        <div class="gallery-item">
+          <img src="img/g19.jpeg" alt="Outdoor fun and games" />
+        </div>
+        <div class="gallery-item">
+          <img src="img/g20.jpeg" alt="Volunteers interacting with kids" />
+        </div>
+        <div class="gallery-item">
+          <img src="img/g21.jpg" alt="Outdoor fun and games" />
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+      <div class="form-content">
+        <h1 class="contact-heading">CONTACT US</h1>
+        <h3 class="contact-subheading">
+          Let's Build a Brighter Future for Children
+        </h3>
+        <p class="contact-subheading">
+          Your support can change lives! Whether you want to donate, volunteer,
+          or partner with us, we are here to collaborate. Reach out and be part
+          of the change!
+        </p>
+      </div>
+
+      <div class="signup-form">
+        <div class="signup-container">
+          <h2>Join KidsGrow - Make a Difference</h2>
+          <div class="role-selection">
+            <div
+              class="role-option"
+              onclick="showAlert('Charity', 'charity-form')"
+            >
+              <img src="img/charity1.png" alt="Charity" />
+              <p>Charity Foundation</p>
+            </div>
+            <div class="role-option" onclick="showAlert('Donor', 'donor-form')">
+              <img src="img/donor1.png" alt="Donor" />
+              <p>Donor</p>
+            </div>
+            <div
+              class="role-option"
+              onclick="showAlert('Volunteer', 'volunteer-form')">
+            
+              <img src="img/volunteer1.png" alt="Volunteer" />
+              <p>Volunteer</p>
+            </div>
+          </div>
+        </div>
+
+        <div id="custom-alert" class="custom-modal">
+          <div class="custom-modal-content">
+            <p id="alert-message"></p>
+            <button class="confirm-btn" onclick="confirmSelection()">
+              CONFIRM !!
+            </button>
+            <button class="cancel-btn" onclick="closeAlert()">CANCEL !!</button>
+          </div>
+        </div>
+
+        <div class="wrapper">
+          <div id="charity-form" class="form-container">
+            <h2>Join KidsGrow as a Charity Foundation</h2>
+            <form method="POST" action="charity_register.php" >
+              <input type="text" name="name" placeholder="Full Name" required />
+              <input type="email" name="email" placeholder="Email Address" required />
+              <input type="text" name="organization" placeholder="Organization Name" required />
+              <input type="text" name="mobile" placeholder="Mobile Number" required />
+              <input type="password" name="password" placeholder="Create Password" required />
+              <input type="password" name="confirm_password" placeholder="Confirm Password" required />
+              <input type="hidden" name="role" value="charity" />
+              <button type="submit">Sign Up</button>
+              <p>Already have an account? <a href="login.html">Login here</a></p>
+            </form>
+          </div>
+          
+          <div id="donor-form" class="form-container">
+            <h2>Support KidsGrow as a Donor</h2>
+            <form method="POST" action="donor_register.php">
+              <input type="text" name="name" placeholder="Full Name" required />
+              <input type="email"  name="email"  placeholder="Email Address" required />
+              <input type="text" name="mobile" placeholder="Mobile Number" required />
+              <input type="password" name="password" placeholder="Create Password" required />
+              <input type="password"  name="confirm_password" placeholder="Confirm Password" required />
+              <input type="hidden" name="role" value="donor" />
+              <button type="submit">Sign Up</button>
+              <p>Already have an account? <a href="login.html">Login here</a></p>
+            </form>
+          </div>
+          
+          <div id="volunteer-form" class="form-container">
+            <h2>Be a Volunteer at KidsGrow</h2>
+            <form action="volunteer_signup.php" method="POST" >
+              <input type="text" name="name" placeholder="Full Name" required />
+              <input type="email" name="email" placeholder="Email Address" required />
+              <input type="text" name="mobile" placeholder="Enter mobile number" required />
+              <input type="password" name="password" placeholder="Create Password" required />
+              <input type="password" name="confirm_password" placeholder="Confirm Password" required />
+              <input type="hidden" name="role" value="volunteer" />
+              <button type="submit">Sign Up</button>
+              <p>Already have an account? <a href="login.html">Login here</a></p>
+            </form>
+          </div>
+          
+      </div>
+    
+    </section>
+
+    <section class="faq">
+      <h2>Frequently Asked Questions</h2>
+      <p>Find answers to common queries about KidsGrow.</p>
+  
+      <div class="faq-container">
+          <div class="faq-item">
+              <div class="faq-question">How can I donate?</div>
+              <div class="faq-answer">You can donate online via our website using secure payment methods like credit/debit cards, PayPal, or direct bank transfer.</div>
+          </div>
+  
+          <div class="faq-item">
+              <div class="faq-question">Where does my money go?</div>
+              <div class="faq-answer">Your donations are used for education, healthcare, food, and shelter for underprivileged children. Every penny is accounted for transparently.</div>
+          </div>
+  
+          <div class="faq-item">
+              <div class="faq-question">How can I volunteer?</div>
+              <div class="faq-answer">You can sign up as a volunteer through our website. We have various roles, including teaching, organizing events, and fundraising.</div>
+          </div>
+  
+          <div class="faq-item">
+              <div class="faq-question">Is my donation tax-deductible?</div>
+              <div class="faq-answer">Yes, all donations to KidsGrow are tax-deductible. You will receive a receipt for tax purposes.</div>
+          </div>
+  
+          <div class="faq-item">
+              <div class="faq-question">How do I contact KidsGrow?</div>
+              <div class="faq-answer">You can reach us via email at support@kidsgrow.org or call our helpline at +91 7987493470.</div>
+          </div>
+      </div>
+  </section>
+    
+    
+    <section>
+      <footer class="footer">
+        <div class="footer-container">
+            <div class="left-section-footer">
+                <div class="footer-bg">
+                    <h2>Take the Lead <br> Join Our Network</h2>
+                    <button class="donate-btn">DONATE</button>
+                </div>
+            </div>
+            <div class="right-section-footer">
+                <div class="footer-links">
+                    <div class="about-footer">
+                        <h3>ABOUT ONE DROP</h3>
+                        <ul>
+                            <li><a href="https://www.unicef.org/">Organization</a></li>
+                            <li><a href="https://ncpcr.gov.in/public/report">Impact Report</a></li>
+                            <li><a href="#">Governance</a></li>
+                            <li><a href="#">Team</a></li>
+                            <li><a href="#">Media</a></li>
+                            <li><a href="#">Careers</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="news">
+                        <h3>NEWS AND EVENTS</h3>
+                        <ul>
+                            <li><a href="https://ncpcr.gov.in/public/report">News & Articles</a></li>
+                            <li><a href="#">Stories</a></li>
+                            <li><a href="#">Events</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="social-icons">
+                    <a href="#"><img src="img/facebookk.png" alt="Facebook"></a>
+                    <a href="#"><img src="img/twitter.png" alt="Twitter"></a>
+                    <a href="#"><img src="img/insta.png" alt="Instagram"></a>
+                    <a href="https://www.linkedin.com/in/rainagupta2424/"><img src="img/linkdin.png" alt="LinkedIn"></a>
+                    <a href="#"><img src="img/youtube.png" alt="YouTube"></a>
+                    <a href="#"><img src="img/whatsapp.png" alt="Whatsapp"></a>
+                </div>
+            </div>
+        </div>
+    
+        <div class="footer-bottom">
+            <p>&copy; KidsGrow | All rights reserved. Charity Street, mumbai, India</p>
+            <button class="subscribe-btn">SUBSCRIBE NOW</button>
+        </div>
+    </footer>
+    
+    </section>
+
+    <script src="proper.js"></script>
+  </body>
+</html>
